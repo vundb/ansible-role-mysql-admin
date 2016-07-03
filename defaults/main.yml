@@ -1,0 +1,20 @@
+#
+# Root user password for mysql.
+#
+mysql_root_password: BRDMRJCNBYI8
+
+#
+# Array with mysql databases.
+#
+# mysql_databases:
+#   - { name: "wordpress", encoding: "utf8", collation: "utf8_unicode_ci", state: "present" }
+#
+mysql_databases: []
+
+#
+# Array with mysql users.
+#
+# mysql_users:
+#   - { name: "wordpress", pass: "wordpress", priv: "wordpress.*:ALL", host: "localhost", state: "present" }
+#
+mysql_users: []
